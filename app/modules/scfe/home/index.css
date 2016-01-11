@@ -940,7 +940,8 @@ i.logo::after{
 /*材料*/
 .head_bar
 {
-  position: relative;
+  position: fixed;
+  background: #EDECEC;
   height: 44px;
   /*一指*/
   width: 100%;
@@ -950,7 +951,10 @@ i.logo::after{
   z-index: 1;
 }
 
-
+.cardlist_wrapper
+{
+  padding-top: 44px;
+}
 .bar_wrapper
 
 {
